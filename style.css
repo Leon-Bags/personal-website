@@ -1,0 +1,17 @@
+header {
+    font-size: 1.5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1em 1.5em;
+    box-shadow: 0 2px 4px -2px;
+    display: block;
+}
+
+
+body {
+    background-color: rgb(178, 216, 216);
+    max-width: 960px;
+    color: black;
+    margin: auto;
+}
