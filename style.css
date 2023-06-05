@@ -1,17 +1,58 @@
+html {
+    background-color: rgb(178, 216, 216);
+    display: block;
+}
+
+.name {
+    float: right;
+    font-size: 32px;
+}
+
+.links {
+    float: left;
+    font-size: 32px;
+}
+
 header {
+    border-radius: 8px;
     font-size: 1.5rem;
     position: fixed;
     left: 0;
     right: 0;
     padding: 1em 1.5em;
-    box-shadow: 0 2px 4px -2px;
+    box-shadow: rgb(0, 128, 128) 0 2px 4px -2px;
     display: block;
+    background: rgb(102, 178, 178);
+    border: solid;
+
 }
 
-
-body {
-    background-color: rgb(178, 216, 216);
+main {
+    min-height: 98vh;
     max-width: 960px;
-    color: black;
+    background-color: rgb(102, 178, 178);
+    box-shadow: rgb(0, 128, 128);
     margin: auto;
+    padding: 64px 24px 96px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    padding: 3px;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    padding: 3px;
 }
